@@ -4,6 +4,5 @@ buildMvn {
   publishModDescriptor = 'no'
   publishAPI = 'no'
   mvnDeploy = 'no'
-  sqBranch = ['foo', 'folio-918-test']
 }
 
