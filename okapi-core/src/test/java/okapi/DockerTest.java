@@ -126,6 +126,8 @@ public class DockerTest {
 
   @Test
   public void testDockerModule(TestContext context) {
+    logger.info("isNativeTransportEnabled: " + vertx.isNativeTransportEnabled());
+
     Async async = context.async();
     checkDocker(res -> {
       if (res.succeeded()) {
